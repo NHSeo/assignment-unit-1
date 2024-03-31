@@ -1,6 +1,11 @@
 /* Add a background color to the header element */
+* {
+    margin: 0;
+    padding: 0;
+}
+
 header {
-    background-color:darkslategray;
+    background-color: rgb(40, 48, 57);
 }
 
 body {
@@ -28,9 +33,17 @@ p {
     text-align: center;
 }
 
+.about {
+    margin-top: 20px;
+}
+
+
 /* Put a border around your image */
 
 img {
+    margin: auto;
+    display: block;
+    width: 400px;
     border-radius: 10%;
     border-top: 5px solid whitesmoke;
     border-bottom: 5px solid whitesmoke;
@@ -41,6 +54,9 @@ img {
 /* Change the font-family of your list */
 
 .fun-fact {
+    list-style: none;
+    text-align: center;
+    line-height: 30px;
     color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -48,5 +64,5 @@ img {
 /* Add a background color to the footer element */
 
 footer {
-    background-color: darkslategray;
+    background-color: rgb(77, 44, 44);
 }
