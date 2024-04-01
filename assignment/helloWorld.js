@@ -86,3 +86,6 @@ if (gaming === ture) {
 } else {
     console.log("Let's go out to dinner together!")
 }
+
+//let gaming = true;
+//console.log(gaming);
