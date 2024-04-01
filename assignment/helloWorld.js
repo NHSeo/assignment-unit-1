@@ -70,9 +70,19 @@ total = total / 2;
 total = total - 10;
 
 // declare a variable to store a book title
-let title = '';
+let title = 'The Lord of the Rings';
 // check to see if that books contains the word 'The'
 if (title === "The") {
-
+    console.log("This book contains 'The' in the name");
+} else {
+    console.log("I can't find 'The' in the name");
 }
 // display true or false
+
+let gaming = true;
+
+if (gaming === ture) {
+    console.log("I am unable to eat right now.")
+} else {
+    console.log("Let's go out to dinner together!")
+}
